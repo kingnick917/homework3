@@ -17,6 +17,7 @@
           <h2>Generate a Password</h2>
         </div>
         <div class="card-body">
+			<!--this will be the placement of the password -->
 			<textarea id =result
             readonly
             id="password"
@@ -29,6 +30,7 @@
 			  <input type="number" id="length" min='8' max='128' value='128' />
 			</div>
 			<div class="setting">
+				<!-- these are the options for choosing the password   -->
 			  <label>Include uppercase letters</label> 
 			  <input type="checkbox" id="uppercase" checked />
 			</div>
@@ -48,21 +50,13 @@
 		  <button class="btn btn-large" id="generate">
             Generate password
           </button>
-
-
-
-
-
-
-
-
-
 		  <div class="result-container">
-			
 			<button class="btn" id="clipboard">
 		
 				<i class="far fa-clipboard"></i>
 			</button>
+		</div>
+
 		</div>
 
 		</div>
